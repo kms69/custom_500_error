@@ -1,0 +1,6 @@
+custom_500_error.custom_error_config_form:
+  title: 'Custom 500 Internal error config'
+  route_name: custom_500_error.custom_error_config_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99

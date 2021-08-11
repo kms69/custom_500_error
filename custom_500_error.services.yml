@@ -1,0 +1,7 @@
+services:
+  custom_500_error.exception_subscribtr:
+    class: Drupal\custom_500_error\EventSubscriber\ExceptionSubscriber
+    arguments:
+      - '@config.manager'
+    tags:
+      - { name: event_subscriber }

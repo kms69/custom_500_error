@@ -1,0 +1,6 @@
+name: custom 500 INTERNAL SERVER ERROR page
+description: 'customize 500 internal server error page'
+package: 'Improvement'
+type: module
+core_version_requirement: ^8.8 || ^9.0
+

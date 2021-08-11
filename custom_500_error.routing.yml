@@ -1,0 +1,9 @@
+custom_500_error.custom_error_config_form:
+  path: '/admin/config/custom_500_error/customerrorconfig'
+  defaults:
+    _form: '\Drupal\custom_500_error\Form\CustomErrorConfigForm'
+    _title: 'CustomErrorConfigForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
